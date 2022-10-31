@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(192, 227, 255);
+}
+
+#content{
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 65px;
+}
+
+#topbtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(15, 249, 171); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    border-radius: 50%;
+  }
+  
+#topbtn:hover {
+    background-color: rgb(4, 75, 16); /* Add a dark-grey background on hover */
+  }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(6, 22, 76);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 35px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav {
+    color: lightgreen;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+#logo {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+}
+
+.hide {
+    display: none;
+}
+
+.mydiv:hover+.hide {
+    display: block;
+    color: red;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+#hondalogo,
+#hyundailogo,
+#ramlogo,
+#porchelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#civic,
+#accord,
+#tucson,
+#palisade,
+#ram1500,
+#ford,
+#panamera,
+#macan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 275px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    margin-top: 65px;
+    margin-bottom: 0px;
+    background-color: rgb(10, 10, 36);
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 120px;
+}
+
+#button1 {
+    font-size: medium;
+    color: white;
+    background-color: rgb(10, 10, 36);
+    border: 0;
+}
+
+#button2,
+#button3 {
+    font-size: small;
+    color: white;
+    background-color: rgb(10, 10, 36);
+    border: 0;
+}
+
+.info1 {
+    padding-top: 30px;
+}
+
+.info2 {
+    padding-top: 30px;
+    text-align: right;
+}
+
+#gmaillogo,
+#walogo {
+    width: 40px;
+    height: 40px;
+}
+
+#fblogo,
+#instalogo,
+#linkedinlogo,
+#ytlogo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 0px;
+    background-color: rgb(25, 37, 77);
+    color: black;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 33px;
+    position: inherit;
+}
+
+#footlogo {
+
+    width: 30px;
+    height: 30px;
+    margin-left: 95%;
+    margin-top: 0px;
+}
+
+#copyright {
+    font-size: large;
+    color: #ddd;
+}
+
